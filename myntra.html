@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="myntra.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@200;600;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@200;600;700&family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>MYNTRA.com</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="heading">
+
+            <div class="myntra-logo">
+                <img src="logo.png" title="www.myntra.com" id="myntra-logo-img">
+            </div>
+
+            <div class="navigation-bar">
+
+                <div class="mens">MENS</div>
+                <div class="womens">WOMENS</div>
+                <div class="kides">KIDES</div>
+                <div class="home">HOME</div>
+                <div class="beauty">BEAUTY</div>
+                <div class="studio">STUDIO</div>
+
+            </div>
+
+            <div class="search-bar">
+                <input type="text" id="search-bar-input" placeholder="Search for Products" required>
+            </div>
+            
+        </div>
+
+        <section>
+            <form class="aside">
+                <div class="filter">
+                    <h3>FILTERS</h3>
+
+                    <a href="#" id="btn">CLEAR ALL</a>
+                </div>
+
+                <div class="gender">
+                    <input type="radio" id="gender-men" name="gender">MEN
+                    <br><br>
+                    <input type="radio" id="gender-women" name="gender">WOMEN
+                </div>
+                <div class="categories">
+                    <h3>CATEGORIES
+                        <span><input type="search" id="search-btn"></span>
+                    </h3>
+                    <input type="checkbox">Tshirts
+                    <br><br>
+                    <input type="checkbox">Jeans
+                    <br><br>
+                    <input type="checkbox">Sweatshirts
+                    <br><br>
+                    <input type="checkbox">Jackets
+                    <br><br>
+                    <input type="checkbox">Sweathers
+                    <br><br>
+                    <input type="checkbox">Trousers
+                    <br><br>
+                    <a href="#">+9 More</a>
+                </div>
+                <div class="brand">
+                    <h3>BAND
+                        <span><input type="search" id="search-btn"></span>
+                    </h3>
+                    <input type="checkbox">Puma
+                    <br><br>
+                    <input type="checkbox">Denial
+                    <br><br>
+                    <input type="checkbox">CelfieDesign
+                    <br><br>
+                    <input type="checkbox">Highlander
+                    <br><br>
+                    <input type="checkbox">HRX
+                    <br><br>
+                    <input type="checkbox">Cortina
+                    <br><br>
+                    <a href="#">+5 More</a>
+                </div>
+            </form>
+            <div class="child-container">
+                <div class="card">
+
+                    <div class="product-image">
+                        <img src="image/img1.webp" id="img" alt="shirts">
+
+                        <div class="rating">
+
+                            <div class="rating-value">4.8</div>
+                            <div>
+                                <img src="rating/img-png.png" id="rating-image">
+                            </div>|
+                            <div class="sold">5.3k</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product-name">
+                        <div id="product-brand">Levis</div>
+                        <div id="product-categorie">
+                            Slim Fit Casual Shirt
+                        </div>
+                    </div>
+
+                    <div class="prize">
+                        <div id="prize-value">RS.1319</div>
+                        <div id="cut-prize"><del>RS.2399</del></div>
+                        <div id="offer">(45% OFF)</div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="product-image">
+                        <img src="image/img2.webp" id="img" alt="shirts">
+
+                        <div class="rating">
+
+                            <div class="rating-value">4.5</div>
+                            <div>
+                                <img src="rating/img-png.png" id="rating-image">
+                            </div>|
+                            <div class="sold">2.2k</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product-name">
+                        <div id="product-brand">Roadster</div>
+                        <div id="product-categorie">
+                            Men Cotton Shirt
+                        </div>
+                    </div>
+
+                    <div class="prize">
+                        <div id="prize-value">RS.1154</div>
+                        <div id="cut-prize"><del>RS.2099</del></div>
+                        <div id="offer">(55% OFF)</div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="product-image">
+                        <img src="image/img3.webp" id="img" alt="shirts">
+
+                        <div class="rating">
+
+                            <div class="rating-value">4</div>
+                            <div>
+                                <img src="rating/img-png.png" id="rating-image">
+                            </div>|
+                            <div class="sold">1.2k</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product-name">
+                        <div id="product-brand">Wrogn</div>
+                        <div id="product-categorie">
+                            Slim Fit Casual Shirt
+                        </div>
+                    </div>
+
+                    <div class="prize">
+                        <div id="prize-value">RS.1799</div>
+                        <div id="cut-prize"><del>RS.2399</del></div>
+                        <div id="offer">(25% OFF)</div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="product-image">
+                        <img src="image/img4.webp" id="img" alt="shirts">
+
+                        <div class="rating">
+
+                            <div class="rating-value">3.7</div>
+                            <div>
+                                <img src="rating/img-png.png" id="rating-image">
+                            </div>|
+                            <div class="sold">3.5k</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product-name">
+                        <div id="product-brand">Louis Pichillppe Sport</div>
+                        <div id="product-categorie">
+                            Slim Fit Casual Shirt
+                        </div>
+                    </div>
+
+                    <div class="prize">
+                        <div id="prize-value">RS.2124</div>
+                        <div id="cut-prize"><del>RS.2499</del></div>
+                        <div id="offer">(15% OFF)</div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="product-image">
+                        <img src="image/img5.webp" id="img" alt="shirts">
+
+                        <div class="rating">
+
+                            <div class="rating-value">3.9</div>
+                            <div>
+                                <img src="rating/img-png.png" id="rating-image">
+                            </div>|
+                            <div class="sold">2.7k</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product-name">
+                        <div id="product-brand">Highlander</div>
+                        <div id="product-categorie">
+                            Men White Casual Shirt
+                        </div>
+                    </div>
+
+                    <div class="prize">
+                        <div id="prize-value">RS.657</div>
+                        <div id="cut-prize"><del>RS.1399</del></div>
+                        <div id="offer">(53% OFF)</div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="product-image">
+                        <img src="image/img6.webp" id="img" alt="shirts">
+
+                        <div class="rating">
+
+                            <div class="rating-value">3.5</div>
+                            <div>
+                                <img src="rating/img-png.png" id="rating-image">
+                            </div>|
+                            <div class="sold">3k</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product-name">
+                        <div id="product-brand">Wrogn</div>
+                        <div id="product-categorie">
+                            Men Slim Fit Casual Shirt
+                        </div>
+                    </div>
+
+                    <div class="prize">
+                        <div id="prize-value">RS.2199</div>
+                        <div id="cut-prize"><del>RS.2599</del></div>
+                        <div id="offer">(40% OFF)</div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="product-image">
+                        <img src="image/img7.webp" id="img" alt="shirts">
+
+                        <div class="rating">
+
+                            <div class="rating-value">4.2</div>
+                            <div>
+                                <img src="rating/img-png.png" id="rating-image">
+                            </div>|
+                            <div class="sold">4.6k</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product-name">
+                        <div id="product-brand">Roadster</div>
+                        <div id="product-categorie">
+                            Solid Regular Fit Casual Shirt
+                        </div>
+                    </div>
+
+                    <div class="prize">
+                        <div id="prize-value">RS.658</div>
+                        <div id="cut-prize"><del>RS.1199</del></div>
+                        <div id="offer">(50% OFF)</div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="product-image">
+                        <img src="image/img8.webp" id="img" alt="shirts">
+
+                        <div class="rating">
+
+                            <div class="rating-value">4.3</div>
+                            <div>
+                                <img src="rating/img-png.png" id="rating-image">
+                            </div>|
+                            <div class="sold">3.6k</div>
+                        </div>
+
+                    </div>
+
+                    <div class="product-name">
+                        <div id="product-brand">Highlander</div>
+                        <div id="product-categorie">
+                            Slim Fit Casual Shirt
+                        </div>
+                    </div>
+
+                    <div class="prize">
+                        <div id="prize-value">RS.516</div>
+                        <div id="cut-prize"><del>RS.1099</del></div>
+                        <div id="offer">(53% OFF)</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
